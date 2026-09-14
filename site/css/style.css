@@ -1,0 +1,20 @@
+body{
+background-color: aliceblue;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu li a{
+    display: block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 32px;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    background-color: maroon;
+}
